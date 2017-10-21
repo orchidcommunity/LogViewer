@@ -1,0 +1,42 @@
+{
+  "name": "orchid/log-viewer",
+  "description": "Orchid Log Viewer.",
+  "keywords": ["framework", "laravel", "orchid", "platform", "orchid-package"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "http://orchid.software",
+  "support": {
+    "issues": "https://github.com/theOrchid/Platform/issues",
+    "source": "https://github.com/theOrchid/Platform"
+  },
+  "authors": [
+    {
+      "name": "Alexandr Chernyaev",
+      "email": "bliz48rus@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "arcanedev/log-viewer": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Orchid\\LogViewer\\": "src/"
+    }
+  },
+  "extra": {
+    "orchid": {
+      "image": "https://orchid.software/img/cms/5.png"
+    },
+    "laravel": {
+      "providers": [
+        "Orchid\\LogViewer\\LogViewerServiceProvider"
+      ],
+      "aliases": {
+      },
+      "dont-discover": [
+        "arcanedev/log-viewer"
+      ]
+    }
+  }
+}
