@@ -1,10 +1,12 @@
+<p align="center">
+<img src="https://orchid.software/img/cms/5.png" width="250">
+</p>
+
+
 # Orchid LogViewer
 
 This is an log viewer package for Orchid CMS.
 
-<p align="center">
-<img src="https://orchid.software/img/cms/5.png">
-</p>
 
 ## Installation
 
