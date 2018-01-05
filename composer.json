@@ -1,5 +1,5 @@
 {
-  "name": "orchid/log-viewer",
+  "name": "orchidcommunity/log-viewer",
   "description": "Orchid Log Viewer.",
   "keywords": ["framework", "laravel", "orchid", "platform", "orchid-package"],
   "type": "library",
