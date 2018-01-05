@@ -6,8 +6,8 @@
   "license": "MIT",
   "homepage": "http://orchid.software",
   "support": {
-    "issues": "https://github.com/theOrchid/Platform/issues",
-    "source": "https://github.com/theOrchid/Platform"
+    "issues": "https://github.com/orchidsoftware/platform/issues",
+    "source": "https://github.com/orchidsoftware/platform"
   },
   "authors": [
     {
@@ -33,10 +33,7 @@
         "Orchid\\LogViewer\\LogViewerServiceProvider"
       ],
       "aliases": {
-      },
-      "dont-discover": [
-        "arcanedev/log-viewer"
-      ]
+      }
     }
   }
 }

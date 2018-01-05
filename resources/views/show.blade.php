@@ -1,6 +1,6 @@
 @extends('dashboard::layouts.dashboard')
 
-@section('title',trans('cms::logs.title'))
+@section('title','Log Viewer')
 @section('description',  $log->getPath() )
 
 @section('content')

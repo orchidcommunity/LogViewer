@@ -1,6 +1,6 @@
 <?php
 
-namespace Orchid\LogViewer\Http\Controllers;
+namespace Orchid\LogViewer;
 
 use Arcanedev\LogViewer\Contracts\LogViewer as Log;
 use Arcanedev\LogViewer\Exceptions\LogNotFoundException;

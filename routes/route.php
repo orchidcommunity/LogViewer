@@ -1,9 +1,9 @@
 <?php
 
-$this->group([
-    'middleware' => ['web', 'dashboard', 'access'],
-    'prefix'     => 'dashboard/systems',
-    'namespace'  => 'Orchid\LogViewer\Http\Controllers',
+Route::group([
+    'middleware' => config('platform.middleware.private'),
+    'prefix'     => \Orchid\Platform\Kernel\Dashboard::prefix('/systems'),
+    'namespace'  => 'Orchid\LogViewer',
 ],
     function (\Illuminate\Routing\Router $router) {
         $router->resource('logs', 'LogController', [

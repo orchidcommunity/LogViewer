@@ -1,8 +1,8 @@
 @extends('dashboard::layouts.dashboard')
 
 
-@section('title',trans('cms::logs.title'))
-@section('description',trans('cms::logs.description'))
+@section('title','Log Viewer')
+@section('description','Simple log view')
 
 
 
@@ -55,7 +55,7 @@
                         @else
                             <tr>
                                 <td colspan="11" class="text-center">
-                                    <span class="label label-default">{{ trans('cms::logs.empty-logs') }}</span>
+                                    <span class="label label-default">{{ trans('log-viewer::logs.empty-logs') }}</span>
                                 </td>
                             </tr>
                         @endif
